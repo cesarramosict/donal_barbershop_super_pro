@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Donal BarberShop | Contact &amp; accès</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body class="page">
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-mark">DB</span>
+        <span class="brand-text">
+          <span class="brand-title">Donal BarberShop</span>
+          <span class="brand-subtitle">Haircut &amp; Shaving · Bruxelles</span>
+        </span>
+      </a>
+      <nav class="main-nav" aria-label="Navigation principale">
+        <a href="index.html" class="nav-link">Accueil</a>
+        <a href="produits-prix.html" class="nav-link">Produits &amp; tarifs</a>
+        <a href="photos-videos.html" class="nav-link">Photos &amp; vidéos</a>
+        <a href="equipe.html" class="nav-link">L'équipe</a>
+        <a href="contact.html" class="nav-link is-active">Contact</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Ouvrir le menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="sub-hero sub-hero-bw-alt">
+      <div class="sub-hero-overlay"></div>
+      <div class="container sub-hero-inner">
+        <h1>Contact &amp; accès</h1>
+        <p>Pour toute question ou prise de rendez-vous, contactez le salon.</p>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="contact-title">
+      <div class="container grid grid-2">
+        <div>
+          <header class="section-header align-left">
+            <h2 id="contact-title">Coordonnées</h2>
+          </header>
+          <ul class="info-list">
+            <li>
+              <span class="label">Salon</span>
+              <span class="value">Donal BarberShop<br />Haircut &amp; Shaving</span>
+            </li>
+            <li>
+              <span class="label">Adresse</span>
+              <span class="value">
+                Avenue de la Reine 231<br />
+                1000 Bruxelles · Belgique
+              </span>
+            </li>
+            <li>
+              <span class="label">Téléphone</span>
+              <span class="value">+32 495 44 00 66</span>
+            </li>
+            <li>
+              <span class="label">Instagram</span>
+              <span class="value">@donalbarber</span>
+            </li>
+          </ul>
+
+          <div class="map-hint">
+            <p>
+              <strong>Accès :</strong> tram et bus à proximité immédiate. Parkings publics
+              disponibles dans le quartier.
+            </p>
+            <p>
+              <a href="https://www.google.com/maps/place/Av.+de+la+Reine+231,+1030+Schaerbeek,+Belgique"
+                target="_blank"
+                rel="noopener noreferrer"
+                 class="link">
+                  Voir sur Google Maps →
+              </a>
+
+            </p>
+          </div>
+        </div>
+        <div>
+          <div class="card card-contact">
+            <h3>Écrire au salon</h3>
+            <form class="contact-form">
+              <div class="field">
+                <label for="c-name">Nom</label>
+                <input id="c-name" name="name" type="text" placeholder="Votre nom" required />
+              </div>
+              <div class="field">
+                <label for="c-phone">Téléphone</label>
+                <input id="c-phone" name="phone" type="tel" placeholder="Votre numéro" required />
+              </div>
+              <div class="field">
+                <label for="c-email">E-mail</label>
+                <input id="c-email" name="email" type="email" placeholder="Votre e-mail" />
+              </div>
+              <div class="field">
+                <label for="c-message">Message</label>
+                <textarea id="c-message" name="message" rows="4" placeholder="Votre demande, vos disponibilités..."></textarea>
+              </div>
+              <p class="form-note">
+                Formulaire de démonstration. À connecter à votre boîte mail ou à WhatsApp.
+              </p>
+              <button type="submit" class="btn btn-primary btn-full">Envoyer</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Donal BarberShop · Haircut &amp; Shaving</p>
+    </div>
+  </footer>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>

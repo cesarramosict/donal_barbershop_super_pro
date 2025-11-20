@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Donal BarberShop | Photos &amp; vidéos</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body class="page">
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-mark">DB</span>
+        <span class="brand-text">
+          <span class="brand-title">Donal BarberShop</span>
+          <span class="brand-subtitle">Haircut &amp; Shaving · Bruxelles</span>
+        </span>
+      </a>
+      <nav class="main-nav" aria-label="Navigation principale">
+        <a href="index.html" class="nav-link">Accueil</a>
+        <a href="produits-prix.html" class="nav-link">Produits &amp; tarifs</a>
+        <a href="photos-videos.html" class="nav-link is-active">Photos &amp; vidéos</a>
+        <a href="equipe.html" class="nav-link">L'équipe</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Ouvrir le menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="sub-hero sub-hero-bw-alt">
+      <div class="sub-hero-overlay"></div>
+      <div class="container sub-hero-inner">
+        <h1>Photos &amp; vidéos</h1>
+        <p>Une sélection de coupes, dégradés, barbes et vues du salon.</p>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="galerie-title">
+      <div class="container">
+        <header class="section-header align-left">
+          <h2 id="galerie-title">Galerie photos</h2>
+        </header>
+        <div class="grid grid-3 gallery">
+          <figure class="gallery-item">
+            <img src="assets/img/02.jpg" alt="Coupe fade avec nuque propre" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="assets/img/05.jpg" alt="Coupe avec motif rasé sur le côté" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="assets/img/fade-client-3.jpg" alt="Détail de fade vu du dessus" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="assets/img/fade-client-4.jpg" alt="Coupe moderne avec séparation nette" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="assets/img/fade-client-5.jpg" alt="Coupe bouclée avec nuque travaillée" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="assets/img/03.jpg" alt="Détail d'un fade propre" />
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" aria-labelledby="videos-title">
+      <div class="container">
+        <header class="section-header align-left">
+          <h2 id="videos-title">Vidéos du salon</h2>
+          <p>Pour voir l'ambiance et le travail en mouvement.</p>
+        </header>
+        <div class="grid grid-2 video-grid">
+          <article class="video-card">
+            <div class="video-frame">
+              <video controls preload="metadata">
+                <source src="assets/video/v1.mp4" type="video/mp4" />
+                Votre navigateur ne supporte pas la vidéo.
+              </video>
+            </div>
+          </article>
+          <article class="video-card">
+            <div class="video-frame">
+              <video controls preload="metadata">
+                <source src="assets/video/v01.mp4" type="video/mp4" />
+                Votre navigateur ne supporte pas la vidéo.
+              </video>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Donal BarberShop · Haircut &amp; Shaving</p>
+    </div>
+  </footer>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
