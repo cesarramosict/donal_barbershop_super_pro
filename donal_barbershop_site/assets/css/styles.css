@@ -508,6 +508,7 @@ img {
 }
 
 .team-note {
+  text-align: center;
   margin-top: 16px;
   font-size: 0.86rem;
   color: #666;
