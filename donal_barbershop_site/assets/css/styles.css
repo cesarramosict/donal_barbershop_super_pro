@@ -488,14 +488,27 @@ img {
 
 /* Fotos dos 3 barbeiros */
 .card-team-photo-main {
-  background-image: url("../img/01.jpg");
+  background-image: url("../img/Donal.jpg");
 }
 
 .card-team-photo-alt {
-  background-image: url("../img/sgpt01.jpg");
+  background-image: url("../img/snb.jpg");
 }
 
 .card-team-photo-bw {
+  background-image: url("../img/saloncolore.jpg");
+}
+
+.card-team-photo-donal {
+  background-image: url("../img/Donal.jpg");
+  background-position: 50% 18%;
+}
+
+.card-team-photo-ia1 {
+  background-image: url("../img/sgpt01.jpg");
+}
+
+.card-team-photo-ia2 {
   background-image: url("../img/sgpt.jpg");
 }
 
