@@ -8,8 +8,22 @@ document.addEventListener("DOMContentLoaded", () => {
   const nav = document.querySelector(".main-nav");
 
   if (navToggle && nav) {
-    navToggle.addEventListener("click", () => {
-      nav.classList.toggle("is-open");
+    navToggle.setAttribute("aria-expanded", "false");
+
+    const toggleNav = () => {
+      const isOpen = nav.classList.toggle("is-open");
+      navToggle.setAttribute("aria-expanded", isOpen ? "true" : "false");
+    };
+
+    navToggle.addEventListener("click", toggleNav);
+
+    nav.querySelectorAll(".nav-link").forEach((link) => {
+      link.addEventListener("click", () => {
+        if (nav.classList.contains("is-open")) {
+          nav.classList.remove("is-open");
+          navToggle.setAttribute("aria-expanded", "false");
+        }
+      });
     });
   }
 
